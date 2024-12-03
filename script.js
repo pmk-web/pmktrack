@@ -1,5 +1,6 @@
 // URL pública de tu Google Sheets
-const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRnm5Is_2Za4GD-1UUWr8Nv6Aq_91JZNm3sJmPkrJLr30tfQBt4EhpR_dhjRc32CC2-zBbIODpi2j5O/pub?output=csv';
+const publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRnm5Is_2Za4GD-1UUWr8Nv6Aq_91JZNm3sJmPkrJLr30tfQBt4EhpR_dhjRc32CC2-zBbIODpi2j5O/pub?output=json
+';
 
 // Identificar limpieza activa hoy
 function getLimpiezaActiva(data) {
