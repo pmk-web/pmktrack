@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limpieza Activa</title>
+  <script src="https://cdn.jsdelivr.net/npm/tabletop@1.5.2/src/tabletop.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Limpieza Activa Hoy</h1>
+  <div id="limpieza">
+    <h2>Limpieza en Ejecución</h2>
+    <p id="info-limpieza">Cargando...</p>
+  </div>
+  <div id="ducto">
+    <h2>Ducto Asociado</h2>
+    <p id="info-ducto">Cargando...</p>
+  </div>
+  <div id="puntos">
+    <h2>Checkpoints</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Progresiva</th>
+          <th>Coordenadas</th>
+          <th>Hora</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-puntos">
+        <!-- Aquí se cargarán los datos dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
